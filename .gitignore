@@ -1,0 +1,40 @@
+# Go build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/magisterka
+/pixeler
+
+# Generated images from texture processing
+/MRA.png
+/dithered.png
+/downscaled.png
+/output.png
+/upscaled.png
+/imageUtils.png
+/models/textures/processed/*
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Coverage and profiling output
+coverage.out
+coverage.html
+*.prof
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
